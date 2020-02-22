@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Favorite Contacts List"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/tvContact1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact 1 details" />
+
+        <Button
+            android:id="@+id/button1Call"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Call"
+            android:layout_alignParentLeft="true"/>
+
+        <Button
+            android:id="@+id/button1SMS"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SMS"
+            android:layout_alignParentLeft="true"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@+id/tvContact2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact 1 details" />
+
+        <Button
+            android:id="@+id/button2Call"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Call" />
+
+        <Button
+            android:id="@+id/button2SMS"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SMS" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:id="@+id/tvContact3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact 1 details" />
+
+        <Button
+            android:id="@+id/button3Call"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Call" />
+
+        <Button
+            android:id="@+id/button3SMS"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SMS" />
+    </LinearLayout>
+
+</LinearLayout>

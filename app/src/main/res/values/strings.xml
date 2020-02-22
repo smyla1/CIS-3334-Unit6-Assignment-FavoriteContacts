@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Favorite Contacts</string>
+    <string name="first_contact">Manasa : </string>
+    <string name="first_number">5072506506 </string>
+    <string name="second_contact">Suma  : </string>
+    <string name="second_number">6513525285 </string>
+    <string name="third_contact">Hari   : </string>
+    <string name="third_number">2486570732 </string>
+</resources>
